@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #432d52;
+}
+
+.roxin {
+    background-color: indigo;
+    color: aliceblue;
+}
+
+.cabecalho{
+    width: 90%;
+    height: 24px;
+    text-align: center;
+    padding: 24px;
+    font-size: 36px;
+    color: aliceblue;
+    margin-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: purple;
+}
+
+.corpo {
+    width: 70%;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    border-radius: 18px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+    background-color: purple;
+}
+
+.sumido {
+    display: none;
+}
+
+li{
+    display: inline;
+    margin: auto;
+    float: right;
+}
+
+img {
+    border-radius: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    width: 55%;
+}
